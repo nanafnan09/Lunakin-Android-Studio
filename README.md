@@ -127,3 +127,8 @@ Salah satu fitur unggulan pada *Splash Screen* adalah indikator bendera dinamis 
 
 # UX
 
+### Link Youtube : (https://youtu.be/lDyoqxzHs-8?si=4naDa1XulNSM_UdW)
+
+Klik link tersebut untuk melihat UX dari projek ini
+
+
