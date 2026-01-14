@@ -131,4 +131,97 @@ Salah satu fitur unggulan pada *Splash Screen* adalah indikator bendera dinamis 
 
 Klik link tersebut untuk melihat UX dari projek ini
 
+# Tampilan Pada HP
+
+# 1. Deteksi Lokasi & Lokalisasi Bahasa (Splash Screen)
+
+<img src="Pict Lunakin/1.jpeg" width="240">  <img src="Pict Lunakin/lokasi.jpeg" width="240">
+
+Ini adalah fitur unik yang Anda minta untuk ditekankan.
+
+Fungsi: Aplikasi secara otomatis mendeteksi lokasi pengguna saat aplikasi dibuka.
+
+Logika:
+
+Jika lokasi terdeteksi di Indonesia, ikon bendera di pojok kanan atas menjadi Merah Putih dan teks sambutan menggunakan Bahasa Indonesia ("Selamat Datang").
+
+Jika lokasi terdeteksi di Amerika Serikat (atau luar Indonesia), ikon bendera berubah menjadi bendera AS dan teks sambutan berubah menjadi Bahasa Inggris ("Welcome").
+
+Istilah Teknis untuk Readme: Automatic Location-Based Localization atau Geo-location Language Support.
+
+# 2. Halaman Menu Utama (Dashboard)
+
+<img src="Pict Lunakin/2.jpeg" width="240">
+
+Fungsi: Gerbang navigasi utama aplikasi.
+
+Fitur: Terdapat dua tombol navigasi utama:
+
+PESANAN: Untuk memulai pesanan baru.
+
+LIST PESANAN: Untuk melihat riwayat atau detail pesanan yang sudah dibuat.
+
+# 3. Pemilihan Menu Makanan (Ordering Interface)
+
+<img src="Pict Lunakin/3.jpeg" width="240">
+
+Fungsi: Halaman katalog di mana pengguna memilih item.
+
+Fitur:
+
+Daftar menu dengan harga.
+
+Counter (+/-) untuk menambah jumlah porsi per item.
+
+Toggle Switch untuk opsi tambahan (misal: Sambal Penyet, Sambal).
+
+Kalkulasi total harga otomatis secara real-time di bagian bawah (Rp:29000).
+
+# 4. Input Data Pemesan (Checkout Form)
+
+<img src="Pict Lunakin/4.jpeg" width="240">
+
+Fungsi: Pengguna memasukkan detail identitas untuk pengiriman.
+
+Fitur:
+
+Input Nama Pembeli.
+
+Input Alamat Lengkap.
+
+Dropdown pemilihan Metode Pembayaran (contoh di gambar: Dana).
+
+Tombol "Simpan" untuk memproses data ke database/sistem.
+
+# 5. Instruksi Pembayaran (Payment Gateway Simulation)
+
+<img src="Pict Lunakin/5.jpeg" width="240">
+
+Fungsi: Memberikan instruksi transfer sesuai metode yang dipilih.
+
+Fitur:
+
+Menampilkan UI dinamis berdasarkan metode pembayaran (contoh: Menampilkan nomor Virtual Account/Transfer untuk DANA).
+
+# 6. Notifikasi Sistem
+
+<img src="Pict Lunakin/notif.jpeg" width="240">
+
+Fungsi: Memberikan umpan balik (feedback) kepada pengguna bahwa proses berhasil.
+
+Fitur: Push Notification yang muncul di status bar berisi konfirmasi "Orderan Disimpan" beserta nama pemesan.
+
+# 7. Ringkasan Pesanan (Order History/Summary)
+
+<img src="Pict Lunakin/6.jpeg" width="240">
+
+Fungsi: Menampilkan rekapitulasi data yang telah tersimpan.
+
+Fitur:
+
+Menampilkan detail lengkap: Nama, Alamat, Rincian Menu (Item & Qty), Total Harga, dan Metode Pembayaran.
+
+Status pesanan (tombol "Done").
+
+
 
